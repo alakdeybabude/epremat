@@ -1,0 +1,887 @@
+/**
+* Template Name: eBusiness - v1.0.0
+* Template URL: https://alak-dey.com/ebusiness-template/
+* Author: alak-dey.com
+* License: https://alak-dey.com/license/
+*/
+
+
+/* CSS Index
+------------------------------------
+
+01. Template Default CSS 
+02. header css
+
+
+
+
+
+
+*/
+
+/* ====================================================
+  Google Fonts
+==================================================== */
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700|Rubik:300,400,500,700&display=swap');
+
+/* ..................................
+ 01. Template Default CSS 
+.................................. */
+
+body {
+  font-family: 'Karla', sans-serif;
+  font-size: 14px;
+  overflow-x: hidden;
+}
+te
+a,
+.button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.btn:focus {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  line-height: 22px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+li a {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  color: inherit;
+}
+
+a {
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.form-control:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+
+/* ====================================================
+   Author's custom styles
+   ==================================================== */
+
+/* ..................................
+ 02. header css 
+.................................. */
+#header{
+  height: 80px;
+  background: rgba(0,0,0,0.5);
+  line-height: 1;
+}
+
+nav.nav-menu {
+  width: 80%;
+
+  height: 80px;
+  line-height: 80px;
+  position:relative;
+  
+}
+
+.nav-menu ul li a {
+  display: block;
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 18px;
+  padding: 0px 12px;
+}
+nav.nav-menu ul {
+  float: right;
+}
+.logo h1{font-size: 36px;
+  margin: 0;
+  padding: 0;
+  line-height: 2;
+}
+
+.logo a{
+  text-decoration: none;
+  color:#fff
+}
+
+.logo span{
+    color:  #3ec1d5;;
+}
+
+
+
+
+
+/* ..................................
+ 01. home section CSS 
+.................................. */
+.home-bg{
+  background-image: url("../img/slider/slider3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+
+}
+.home-content{
+  margin: 0px auto;
+  text-align: center;
+
+}
+.home-text{
+  padding: 180px 0;
+  position: relative;
+  color:#fff;
+  z-index: 1;
+  text-align: center;
+}
+.home-bg::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;background-color: #444;opacity: 0.5;
+ 
+}
+.home-heading-01 h2 {
+  font-weight: 700;
+  font-size: 32px;
+  color:#fff;
+  line-height: 60px;
+}
+.home-heading-02 h1 {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 50px;
+  color: #fff;
+  line-height: 60px;
+  width: 72%;
+}
+
+
+.ready-btn {
+  border: 1px solid #fff;
+  padding: 8px 25px;
+  display: inline-block;
+  border-radius: 30px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 700;
+  margin-top: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.4s ease 0s;
+  z-index: 222;
+  text-decoration: none;
+}
+.right-btn {
+  margin-right: 15px;
+  background: #3EC1D5;
+  border: 1px solid #3EC1D5 
+}
+.right-btn:hover{
+  background: transparent;
+  border:1px solid #fff;
+}
+.left-btn:hover{
+  background: #3ec1d5;
+  border: 1px solid #3ec1d5
+}
+
+
+
+.section-padding{
+  padding: 600px 0;
+}
+
+
+/* ..................................
+ 01. about CSS 
+.................................. */
+.about-area{
+  background: #f9f9f9;
+}
+.area-padding{
+  padding: 80px 0 80px;
+
+}
+.section-heading h2 {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 70px;
+  text-transform: capitalize;
+  position: relative;
+  color: #444;
+}
+.section-heading span {
+  color: #3EC1D5;
+}
+.section-heading h2::after {
+  content: ""'';
+  border: 1px solid #3EC1D5;
+  bottom: -20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 40%;
+  margin: 0 auto;
+}
+.content-box a{
+  display: block;
+}
+.sec-head {
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 0;
+  padding: 0 0 10px;
+  text-transform: uppercase;
+  transition: all 0.4s ease 0s;
+  color: #444;
+}
+.content-box p {
+  line-height: 22px;
+  font-size: 14px;
+  color: #444;
+}
+.content-box ul li {
+  display: block;
+  padding: 5px 0;
+  color: #444;
+}
+
+.content-box ul li i {
+  color: #3ec1d5;
+  font-size: 12px;
+  padding-right: 10px;
+}
+/* ..................................
+ 01.service css start 
+.................................. */
+.service-head{
+  margin-bottom: 25px;
+}
+.service-box{
+ 
+  margin-bottom: 25px;
+  padding: 0 20px 15px;
+  position: relative;
+  
+  box-shadow: 0 2px 29px 0 rgba(68, 88, 144, 0.12);
+
+}
+.service-box::before {
+  content: '';
+  position: absolute;
+  background: #fdeff2;
+  color: #333;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 100%;
+  transition: all 0.4s;
+  z-index: -1;
+}
+
+.service-box:hover::before {
+  background: #e43c5c;
+  top: 0;
+  color: #fff;
+  
+}
+.service-details{
+  padding-top: 40px;
+  transition: all 0.5s ease 0s;
+}
+
+.service-icon {
+  display: inline-block;
+  font-size: 36px;
+  color: #444;
+  margin-bottom: 20px;
+}
+.single-services h4 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #444;
+  margin-bottom: 15px;
+}
+.single-services p{
+  font-size: 14px;
+  color: #333;
+}
+.service-details:hover h4, .service-details:hover .service-icon {
+  color: #3EC1D5;
+}
+
+
+
+/* ..................................
+ 01. cta CSS 
+.................................. */
+.cta {
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url(../img/slider/slider1.jpg) center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 60px 0;
+}
+.cta-content{
+  color: #fff;
+  
+}
+.cta-content h3{
+  color: #fff;
+  text-transform: capitalize;
+  
+}
+.cta-content p{
+  font-size: 22px;
+  padding: 10px 0 2px;
+  line-height: 30px;
+  font-weight: 300;
+
+}
+
+.cta .cta-btn {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.cta-btn:hover{
+  background: #3ec1d5;
+  border: 1px solid #3ec1d5
+}
+/* ..................................
+ 01. our team CSS 
+.................................. */
+.single-team-member {
+  border: 1px solid #ddd;
+  
+}
+
+.team-img {
+  position: relative;
+}
+
+.team-img a img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.team-img a {
+  display: block;
+  transition: all 1.3s ease 0s;
+}
+
+.team-img >a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: all 0.5s ease 0s;
+}
+.team-social-icon {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-left: -61px;
+  transition: 1.3s;
+  opacity: 0;
+  background: transparent;
+}
+
+.team-social-icon ul li {
+  display: inline-block;
+}
+
+.team-social-icon ul li a {
+  color: #fff;
+  width: 34px;
+  height: 34px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: block;
+  font-size: 14px;
+  margin: 0 3px;
+  line-height: 34px;
+  
+}
+.team-content{
+  padding: 10px 0;
+}
+
+.team-content h4 {
+  font-size: 24px;
+  line-height: 26px;
+  color: #444;
+  margin-bottom: 5px;
+}
+
+.team-content p {
+  font-size: 22px;
+  line-height: 22px;
+  color: #444;
+  margin-bottom: 5px;
+}
+.single-team-member:hover .team-img a:after {
+  opacity: 1;
+}
+
+.single-team-member:hover .team-social-icon {
+  top: 45%;
+  opacity: 1;
+} 
+.single-team-member:hover .team-img a:after {
+  opacity: 1;
+}
+
+.single-team-member:hover .team-social-icon {
+  top: 45%;
+  opacity: 1;
+}
+.team-social-icon ul li a:hover {
+  color: #fff;
+  border: 1px solid #3EC1D5;
+  background: #3EC1D5;
+}
+
+/* ..................................
+ 01. reviews CSS 
+.................................. */
+.reviews-area{
+  background-image: url("../img/background/bg1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.work-us{
+  max-width :100%;
+  height: auto;
+  align-content: center;
+}
+.left-box{
+  max-width: 50%;
+}
+.right-box{
+  max-width: 50%;
+  background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+  overflow: hidden;
+}
+
+.work-content{
+  color: #fff;
+  padding-top: 80px
+}
+.work-content{
+  color: #fff;
+  font-size: 24px
+}
+.work-content h2 {
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight:300;
+  padding-bottom: 15px;
+}
+.work-content h5 {
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 34px
+}
+
+
+
+/* ..................................
+ 01. portfolio CSS 
+.................................. */
+
+
+ .project-menu {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+ul.project-menu li {
+  display: inline-block;
+}
+
+
+.project-menu li a {
+  border: 1px solid #444;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 4px;
+  padding: 6px 15px;
+  border-radius: 15px;
+  cursor: pointer;
+  text-transform: capitalize;
+  transition: all 0.3s ease 0s;
+}
+
+.project-menu li a:hover {
+  border-color: #3EC1D5;
+  background: #3ec1d5;
+  color: #fff;
+  text-decoration: none;
+}
+.img-box{
+  margin-bottom: 25px;
+}
+/* ..................................
+ 01.pricing CSS 
+.................................. */
+.pricing{
+  background:#f9f9f9;
+  padding-bottom: 100px;
+}
+.pricing .box {
+  padding: 20px;
+  background: #fff;
+  text-align: center;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 29px 0 rgba(68, 88, 144, 0.12);
+
+}
+
+.pricing .box h3 {
+  font-weight: 400;
+  padding: 15px;
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #493c3e;
+}
+
+.pricing .box h4 {
+  font-size: 42px;
+  color: #3EC1D5;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
+}
+
+.pricing .box h4 sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+.pricing .box h4 span {
+  color: #bababa;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.pricing .box ul {
+  padding: 0;
+  list-style: none;
+  color: #493c3e;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.pricing .box ul li {
+  padding-bottom: 16px;
+}
+
+.pricing .box ul i {
+  color: #3EC1D5;
+  font-size: 18px;
+  padding-right: 4px;
+}
+
+.pricing .box ul .na {
+  color: #ccc;
+  text-decoration: line-through;
+}
+
+.pricing .box .btn-wrap {
+  padding: 15px;
+  text-align: center;
+}
+
+.pricing .box .btn-buy {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  border: 2px solid #3EC1D5;
+  color: #3EC1D5;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.pricing .box .btn-buy:hover {
+  background: #3EC1D5;
+  color: #fff;
+}
+
+.pricing .recommended {
+  border-color: #3EC1D5;
+}
+
+.pricing .recommended .btn-buy {
+  background: #3EC1D5;
+  color: #fff;
+}
+
+.pricing .recommended .btn-buy:hover {
+  background: #3ec1d5;
+  border-color: #3ec1d5;
+}
+
+.pricing .recommended-badge {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  font-size: 13px;
+  padding: 3px 25px 6px 25px;
+  background: rgba(0,0,0,0.1);
+  color: #3ec1d5;
+  border-radius: 50px;
+}
+
+
+/* ..................................
+ 01. testimonial CSS 
+.................................. */
+.testimonial-area{
+  width: 100%;
+  height: auto;
+  background:url("../img/background/slider1.jpg") no-repeat fixed center top/cover;
+}
+.test-inner{
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+  padding: 100px 0;
+
+}
+.test-overly {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.quote {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #fff;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 70px;
+  border-radius: 50%;
+  color: #fff;
+}
+.quote :hover {
+  color: #3ec1d5;
+}
+.quote i {
+  color: #fff;
+}
+
+.test-text p {
+  color: #fff;
+  margin: 14px 0;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 26px;
+}
+.test-text h6 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 200;
+  
+}
+/* ..................................
+ 01.blog CSS 
+.................................. */
+.blog-inner{
+  padding-bottom: 120px;
+}
+.ready-btn.right-btn:hover {
+  border: 1px solid #444;
+}
+
+.inner-blog .ready-btn {
+  margin: 0;
+}
+.inner-blog h5.card-text{
+  font-size: 24px;
+  margin-bottom: 2px;
+}
+
+
+/* ..................................
+ 01. contact CSS 
+.................................. */
+/* .contact-area{
+  background: #272727
+ 
+} */
+.contact-area h2{
+  color: orange
+}
+.contact-area{
+  background: linear-gradient(rgba(15,15,15,0.6),rgba(22,22,22,0.9)),url("../img/blog/5.jpg");
+  background-size: cover ;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height:100%
+
+}
+/* .contact-left{
+  background: linear-gradient(rgba(15,15,15,0.6),rgba(22,22,22,0.9)),url("../img/about/2.jpg");
+  background-size: cover ;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%
+} */
+.contact-right{
+  background: #fff;
+  padding: 4px 16px 16px 16px
+}
+.contact-heading{
+  font-size: 32px;
+  font-weight: 500;
+  color: #272727;
+  margin: 16px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.contact-right form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.field {
+  width: 390px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px dashed #636363;
+  margin: 35px 0;
+  padding: 16px 16px 16px 0;
+}
+.input-group{
+  position: relative;
+}
+.input-group input{
+  height: 40px;
+}
+.input-group textarea{
+  max-width: 80%;
+  max-height: 70px;
+}
+.input-group label{
+  position: absolute;
+  left: 0;
+  font-size:16px;
+  color: #4b4b4b;
+  text-transform: uppercase;
+  pointer-events: none;
+}
+.input-label{
+  bottom: 80px
+}
+.message{
+  bottom:100px
+}
+.submit-btn {
+  width: 59%;
+  height: 35px;
+  background: orange;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  border: 1px solid orange;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+/* ..................................
+ 01. footer CSS 
+.................................. */
+.footer-content p{
+  padding: 30px 0
+}
